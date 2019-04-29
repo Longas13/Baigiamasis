@@ -1,5 +1,5 @@
 {
-  "name": "svetaine20",
+  "name": "Baigiamasis",
   "version": "1.0.0",
   "description": "pirma svetaine",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Longas13/svetaine20.git"
+    "url": "git+https://github.com/Longas13/Baigiamasis.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Longas13/svetaine20/issues"
+    "url": "https://github.com/Longas13/Baigiamasis/issues"
   },
-  "homepage": "https://github.com/Longas13/svetaine20#readme",
+  "homepage": "https://github.com/Longas13/Baigiamasis#readme",
   "devDependencies": {
     "browser-sync": "^2.26.5",
     "gulp": "^3.9.1",
