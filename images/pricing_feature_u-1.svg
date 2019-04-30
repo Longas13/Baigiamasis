@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="343" height="40" viewBox="0 0 343 40">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 343 40">
+      <image width="343" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVcAAAAoCAYAAABKMrm4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dSxAYAwDMCwlP9/hg6cEG/S4g983msAWPX8BWCRuQIEzBUgYK4AAXMFCJgrQMBcAQLmChAwV4CAuQIEzBUgYK4AAXMFCJgrQMBcAQLmChAwV4CAuQIEzBUgYK4AAXMFCJgrQMBcAQLmChAwV4CAuQIEzBUgYK4AAXMFCJgrQMBcAQLmChAwV4CAuQIEzBUgYK4AAXMFCJgrQMBcAdbNfEvJBEz2yAfHAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <path id="pricing_feature_u13_copy_5" data-name="pricing_feature_u13 copy 5" d="M0,0H343a0,0,0,0,1,0,0V35a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" fill="url(#pattern)"/>
+</svg>
