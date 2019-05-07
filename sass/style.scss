@@ -6,8 +6,28 @@ $blue: #6696E2;
 
 body{
     font-family: 'Montserrat', sans-serif;
+    align-content: center;
 }
 header {
     background-color: $black;
     height: 72px;
+    width: 100%;
+    display: flex;
+}
+image .meniuLogo {
+    height: 52px;
+    width: 102px;
+}
+div .meniu a{
+    color: $white;
+    text-decoration: none;
+    width: 61px;
+    display: inline-block;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 44px;  
+}
+main div image{
+    background-size: cover;
 }

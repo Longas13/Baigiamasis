@@ -1,0 +1,29 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+header {
+  background-color: #1C1C1C;
+  height: 72px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+image .meniuLogo {
+  height: 52px;
+  width: 102px; }
+
+div .meniu a {
+  color: #F5F5F5;
+  text-decoration: none;
+  width: 61px;
+  display: inline-block;
+  text-align: right;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 44px; }
+
+main div image {
+  background-size: cover; }
