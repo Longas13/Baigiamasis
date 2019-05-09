@@ -8,7 +8,8 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  position: fixed; }
+  position: fixed;
+  padding-left: 10%; }
 
 .meniuLogo image {
   height: 52px;
@@ -22,7 +23,9 @@ body {
   display: inline-flex;
   float: right;
   font-size: 18px;
-  padding: 20px; }
+  padding: 26px;
+  position: absolute;
+  right: 20%; }
 
 .meniu div a {
   color: #F5F5F5;
@@ -35,16 +38,53 @@ body {
   font-size: 18px; }
 
 #features {
+  background-image: url("images/photo1.jpg");
   background-size: cover;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  position: absolute; }
-
-main div image {
+  display: inline-block;
+  width: 100%;
   height: 600px;
-  width: 100%; }
+  position: absolute;
+  margin-left: 10%; }
+
+.features {
+  display: inline-block; }
+
+image {
+  max-height: 600px;
+  width: 100%;
+  background-size: cover;
+  z-index: -1; }
+
+.features1 {
+  width: 63%;
+  height: 60%; }
 
 .featuresLogo {
-  height: 108px;
-  width: 245px; }
+  width: 250px;
+  height: 110px; }
+
+.featuresText1 {
+  width: 63%;
+  height: 90px;
+  border: 1px solod #1C1C1C; }
+
+.featuresText2 {
+  width: 10%;
+  height: 5px;
+  border-bottom: 3px solid #1C1C1C; }
+
+.featuresText3 {
+  width: 63%;
+  height: 65px;
+  border: 1px solid #1C1C1C; }
+
+.button {
+  width: 145px;
+  height: 42px;
+  font-size: 14px;
+  border: 3px solid #1C1C1C; }
+
+.form {
+  width: 40%;
+  height: 420px;
+  margin-right: 20%; }
