@@ -22,10 +22,10 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   float: right;
-  font-size: 18px;
+  font-size: 14px;
   padding: 26px;
   position: absolute;
-  right: 20%; }
+  right: 10%; }
 
 .meniu div a {
   color: #F5F5F5;
@@ -37,54 +37,63 @@ body {
   padding-right: 44px;
   font-size: 18px; }
 
-#features {
+#features-img {
   background-image: url("images/photo1.jpg");
   background-size: cover;
-  display: inline-block;
   width: 100%;
-  height: 600px;
-  position: absolute;
-  margin-left: 10%; }
+  height: 600px; }
 
 .features {
-  display: inline-block; }
-
-image {
-  max-height: 600px;
+  display: inline-block;
   width: 100%;
-  background-size: cover;
-  z-index: -1; }
+  height: 600px; }
 
 .features1 {
-  width: 63%;
-  height: 60%; }
+  width: 40%;
+  height: 80%;
+  margin-left: 10%;
+  color: #F5F5F5;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .featuresLogo {
-  width: 250px;
-  height: 110px; }
+  width: 40%;
+  height: 110px;
+  margin-left: 10%;
+  margin-top: 110px; }
 
 .featuresText1 {
-  width: 63%;
-  height: 90px;
-  border: 1px solod #1C1C1C; }
+  width: 40%;
+  height: auto;
+  margin-left: 10%;
+  font-size: 24px;
+  color: #F5F5F5; }
 
 .featuresText2 {
   width: 10%;
   height: 5px;
-  border-bottom: 3px solid #1C1C1C; }
+  margin-left: 10%;
+  color: #F5F5F5; }
 
 .featuresText3 {
-  width: 63%;
-  height: 65px;
-  border: 1px solid #1C1C1C; }
+  width: 40%;
+  height: auto;
+  margin-left: 10%;
+  color: #F5F5F5; }
 
-.button {
+.featuresDownload {
   width: 145px;
   height: 42px;
   font-size: 14px;
-  border: 3px solid #1C1C1C; }
+  margin-left: 10%;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  text-decoration: none;
+  list-style-type: none; }
 
 .form {
   width: 40%;
-  height: 420px;
-  margin-right: 20%; }
+  height: auto;
+  margin-right: 20%;
+  margin-left: 5%; }

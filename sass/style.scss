@@ -3,13 +3,11 @@ $green: #41D395;
 $black: #1C1C1C;
 $red: #E27866;
 $blue: #6696E2;
-
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
 // Header and menu
-
 .header {
     background-color: $black;
     height: 72px;
@@ -18,20 +16,21 @@ body{
     position: fixed;
     padding-left: 10%;
 }
+
 .meniuLogo image {
     height: 52px;
     width: 102px;
     margin-left: 20%;
     margin-top: 10px;
-
 }
-.meniu  {
+
+.meniu {
     display: inline-flex;
     float: right;
-    font-size: 18px;
+    font-size: 14px;
     padding: 26px;
     position: absolute;
-    right: 20%;
+    right: 10%;
 }
 
 .meniu div a {
@@ -41,81 +40,78 @@ body{
     text-align: right;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-right: 44px; 
-    font-size: 18px; 
+    padding-right: 44px;
+    font-size: 18px;
 }
 
 // Features Block
-
-
-#features {
-    // background-image: url("images/photo1.jpg");
+#features-img {
+    background-image: url("images/photo1.jpg");
     background-size: cover;
-    display: inline-block;
     width: 100%;
     height: 600px;
-    position: absolute;
-    margin-left: 10%;
 }
-
-// section {
-//     width: 100%;
-//     height: 500px;
-// }
 
 .features {
     display: inline-block;
+    width: 100%;
+    height: 600px;
 }
 
-image {
-    max-height: 600px;
-    width: 100%;
-    background-size: cover;
-    z-index: -1;
-}
 .features1 {
-    width: 63%;
-    height: 60%;
-    // align-content: center;
+    width: 40%;
+    height: 80%;
+    margin-left: 10%;
+    color: $white;
+    justify-content: space-between;
 }
 
 .featuresLogo {
-    width: 250px;
+    width: 40%;
     height: 110px;
+    margin-left: 10%;
+    margin-top: 110px;
 }
 
 .featuresText1 {
-    width: 63%;
-    height: 90px;
-    border: 1px solod $black;
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    font-size: 24px;
+    color: $white;
 }
+
 .featuresText2 {
     width: 10%;
     height: 5px;
-    border-bottom: 3px solid $black;
+    margin-left: 10%;
+    color: $white;
 }
 
 .featuresText3 {
-    width: 63%;
-    height: 65px;
-    border: 1px solid $black;
-
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    color: $white;
 }
 
-.button {
+.featuresDownload {
     width: 145px;
     height: 42px;
     font-size: 14px;
-    border: 3px solid $black;
+    margin-left: 10%;
+    border: 2px solid $white;
+    color: $white;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .form {
     width: 40%;
-    height: 420px;
+    height: auto;
     margin-right: 20%;
+    margin-left: 5%;
 }
-
-
 
 // main div image{
 //     // background-image: linear-gradient(rgba(28, 28, 28, 0.63));
@@ -125,30 +121,19 @@ image {
 //     height: 600px;
 //     margin-left: 20%;
 // }
-
-
-
-
-
 // .mainAbout {
 //     background-color: $black;
 //     width: 100%;
 //     height: 600px;
 //     margin-left: 20%;
 // }
-
 // .media1 {
 //     margin-left: 20%;
 //     display: inline;
 // }
-
 // .about2Logo {
 //     height: 170px;
 //     margin-left: 20%;
 // }
-
-
 // .mediaIcons {
-
 //     display: inline;
-
