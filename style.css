@@ -44,7 +44,9 @@ body {
   height: 600px; }
 
 .features {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   height: 600px; }
 
@@ -67,20 +69,20 @@ body {
   width: 40%;
   height: auto;
   margin-left: 10%;
-  font-size: 24px;
+  font-size: 16px;
   color: #F5F5F5; }
 
 .featuresText2 {
   width: 10%;
-  height: 5px;
   margin-left: 10%;
   color: #F5F5F5; }
 
 .featuresText3 {
-  width: 40%;
+  width: 65%;
   height: auto;
   margin-left: 10%;
-  color: #F5F5F5; }
+  color: #F5F5F5;
+  font-size: 12px; }
 
 .featuresDownload {
   width: 145px;
@@ -96,10 +98,26 @@ body {
   margin: auto; }
 
 .form1 {
+  text-align: center;
   width: 40%;
   height: auto;
   margin-right: 20%;
-  margin-left: 5%; }
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #F5F5F5;
+  border-radius: 9%; }
+
+.formHeader {
+  padding: 10px; }
+
+input {
+  width: 70%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px; }
 
 .media1 {
   width: 100%;
@@ -140,8 +158,8 @@ body {
   height: 600px; }
 
 .swiper-container {
-  width: 600px;
-  height: 300px; }
+  width: auto;
+  height: 600px; }
 
 .swiper-slide {
   text-align: center;
@@ -160,17 +178,42 @@ body {
 .about2 {
   width: 100%;
   height: 600px;
-  background-color: #1C1C1C; }
+  background-color: #1C1C1C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #F5F5F5; }
 
 .about2Logo {
-  width: 40%;
-  height: auto; }
+  width: 400px;
+  height: 170px; }
 
 .about2Logo image {
-  width: 100%;
-  height: 100%; }
+  width: auto;
+  height: auto; }
 
 .about2Text {
   width: 40%;
   height: auto;
   margin-right: 10%; }
+
+.about2Text1 h3 {
+  font-size: 30px; }
+
+.about2Text1 p {
+  font-size: 14px; }
+
+.about2Icon {
+  display: inline; }
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #E27866;
+  position: absolute; }

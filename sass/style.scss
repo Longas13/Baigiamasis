@@ -53,7 +53,7 @@ body {
 }
 
 .features {
-    display: inline-block;
+    display: flex;
     width: 100%;
     height: 600px;
 }
@@ -77,22 +77,23 @@ body {
     width: 40%;
     height: auto;
     margin-left: 10%;
-    font-size: 24px;
+    font-size: 16px;
     color: $white;
 }
 
 .featuresText2 {
     width: 10%;
-    height: 5px;
+    // height: 5px;
     margin-left: 10%;
     color: $white;
 }
 
 .featuresText3 {
-    width: 40%;
+    width: 65%;
     height: auto;
     margin-left: 10%;
     color: $white;
+    font-size: 12px;
 }
 
 .featuresDownload {
@@ -111,10 +112,29 @@ body {
 }
 
 .form1 {
+    text-align: center;
     width: 40%;
     height: auto;
     margin-right: 20%;
-    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: $white;
+    border-radius: 9%;
+}
+
+.formHeader {
+    padding: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    // box-sizing: border-box;
 }
 
 .media1 {
@@ -160,8 +180,8 @@ body {
 
 // SWIPER CSS
 .swiper-container {
-    width: 600px;
-    height: 300px;
+    width: auto;
+    height: 600px;
 }
 
 .swiper-slide {
@@ -187,20 +207,46 @@ body {
     width: 100%;
     height: 600px;
     background-color: $black;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    color: $white;
 }
 
 .about2Logo {
-    width: 40%;
-    height: auto;
+    width: 400px;
+    height: 170px;
+    // position: absolute;
 }
 
 .about2Logo image {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .about2Text {
     width: 40%;
     height: auto;
     margin-right: 10%;
+}
+
+.about2Text1 h3 {
+    font-size: 30px;
+}
+
+.about2Text1 p {
+    font-size: 14px;
+}
+
+.about2Icon {
+    display: inline;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: $red;
+    position: absolute;
 }
